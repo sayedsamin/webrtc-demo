@@ -1,7 +1,7 @@
 import MainScreen from "./components/MainScreen/MainScreen";
 import firepadRef, { db, userName } from "./config/firebase";
 import "./App.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import {
   setMainStream,
   addParticipant,
